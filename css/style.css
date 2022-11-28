@@ -1,0 +1,16 @@
+/*estilos utilizando elementos html*/
+body{
+    background-color: rgb(68, 209, 186)
+}
+
+h1 {
+    /*propiedades*/
+    text-align: center;
+    color: rgb(12, 9, 11);
+}
+
+h2{
+    color: rgb(3, 2, 5);
+
+}
+/*selector de clase*/
