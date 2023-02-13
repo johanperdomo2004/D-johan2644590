@@ -4,35 +4,79 @@
     border-radius: 5px;
     display: inline-block;
 }
+.container {
+    
+}
 .box-1{
     background-color: rgb(0, 0, 0);
     box-shadow: 25px 15px 10px  rgb(73, 255, 73);
-    margin-left: 150px;
+    margin-left: 700px;
     margin-top: 150px;
-
+    transition: 1.5s;
+}
+.box-1:hover{
+    transform: scale(1.1);
+    box-shadow: 25px 25px 25px rgb(0, 0, 0), -5px 0 5px rgb(0, 0, 0);
 }
 
 .box-2{
     background-color: rgb(0, 0, 0);
     box-shadow: 25px 15px 2px 5px  rgb(44, 255, 44);
-    margin-left: 150px;
-    margin-top: 150px;
+    margin-left: 500px;
+    margin-top: 90px;
+    transition: 1.5s;
 }
+
+.box-2:hover{
+    transform: scale(1.1);
+    box-shadow: 25px 25px 25px rgb(0, 0, 0), -5px 0 5px rgb(0, 0, 0);
+}
+
 .box-3{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(14, 4, 4);
     box-shadow: 25px 30px 15px  rgb(142, 255, 36)inset;
     margin-left: 150px;
-    margin-top: 150px;   
+    margin-top: 90px;   
+    transition: 1.5s;
 }    
+.box-3:hover{
+    transform: scale(1.1);
+    box-shadow: 25px 25px 25px rgb(70, 60, 60), -5px 0 rgb(78, 71, 71), 0);
+}
 .box-4{
     cursor: pointer;
-    background-color: rgb(45, 250, 90);
-
+    background-color: rgb(0, 0, 0);
+    box-shadow: 25px 15px 10px  rgb(73, 255, 73);
+    margin-left: 280px;
+    margin-top: 90px;
+    transition: 1.5s;
+}
+.box-5{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 25px 15px 10px  rgb(73, 255, 73);
     margin-left: 150px;
-    margin-top: 150px;
+    margin-top: 90px;
+    transition: 1.5s;
+
+}
+.box-5:hover{
+    transform: scale(1.1);
+    box-shadow: 25px 25px 25px rgb(0, 0, 0), -5px 0 5px rgb(0, 0, 0);
 }
 
+.box-6{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 25px 15px 2px 5px  rgb(44, 255, 44);
+    margin-left: 150px;
+    margin-top: 90px;
+    transition: 1.5s;
+}
+.box-6:hover{
+    transform: scale(1.1);
+    box-shadow: 25px 25px 25px rgb(0, 0, 0), -5px 0 5px rgb(0, 0, 0);
+}
 .box-4:hover{
+    transform: scale(1.1);
     box-shadow: 25px 25px 25px rgb(0, 0, 0), -5px 0 5px rgb(0, 0, 0);
 }
 body{
