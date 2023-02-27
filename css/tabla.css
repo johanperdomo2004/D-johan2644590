@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table{
+    border-collapse: collapse;
+    border-radius: 100px;
+}
+
+th, td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgba(194,198,198,255);
+}
+
+.azul{
+    background-color: rgb(38, 243, 99);
+    color: rgb(0, 0, 0);
+}
+
+.basic{
+    background-color: rgb(18, 50, 194);
+    color: white;
+}
+
+.silver{
+    background-color: blueviolet;
+    color: white;
+}
+
+.golden{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.titanium{
+    background-color: rgb(0, 91, 114);
+    color: white;
+}
+
+.cont{
+    background-color: beige;
+}
