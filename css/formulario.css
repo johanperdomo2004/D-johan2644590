@@ -1,0 +1,67 @@
+
+.form-box{ display: flex;
+     justify-content: center;
+      align-items: center; 
+
+    } 
+
+
+form{ border: 1px solid black; 
+    width: 500px;
+background-color: rgb(245, 156, 156);
+margin: auto;
+} 
+    
+legend{ background-color: rgb(233, 8, 8);
+     color: rgb(255, 255, 255); 
+     text-align: center;
+     padding: 10px;
+    } 
+     
+.legend-text{ padding: 10px;
+     font-size: 1.2;
+     }
+    
+label,input,textarea,select{
+    margin-left: 25px;
+    margin-right: 25px;
+}   
+ label {
+    display: inline-block;
+    color: black;
+    margin-top: 20px;
+ }    
+ h1 {
+    text-align: center;
+
+ }
+ .textogenero{
+    
+ }
+
+input[type="submit"] {
+    display: block;
+    width: 88%;
+  background-color: rgb(223, 18, 18);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.3em;
+    border: none;
+
+}
+.btn-enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"]{
+    border: 0;
+    border-bottom: 1px solid rgb(1, 1, 2);
+}
+input[type="text"]:focus{
+    outline: none;
+}
+body{
+    background-color: rgb(182, 89, 89);
+    
+}
