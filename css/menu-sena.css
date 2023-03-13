@@ -1,0 +1,13 @@
+li{
+    padding: 13px;
+    display: inline-block;
+    border-right: 5px solid rgb(250, 120, 45);
+    border-radius: 8px;
+    
+}
+.menu-sena{
+    text-align: center;
+}
+i{
+    margin-right: 15px;
+}
