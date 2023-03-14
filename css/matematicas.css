@@ -1,0 +1,94 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #06ad00;
+    color: #000000;
+    padding: 30px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 40px;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    margin-top: 50px;
+  }
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  img{
+    width: 50px;
+    float: right;
+    display: flex;
+  }
+  .logo {
+    float: right;
+    width: 170px;
+    margin-top: -65px;
+  }
