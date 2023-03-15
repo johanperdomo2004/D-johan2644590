@@ -1,0 +1,49 @@
+/* Estilo para el encabezado de página */
+header {
+    background-color: #1d9200;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Estilo para el título principal */
+  h1 {
+    font-size: 36px;
+    margin-top: 0;
+  }
+  
+  /* Estilo para los subtítulos */
+  h2 {
+    color: #0a0a0a;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  /* Estilo para los párrafos de texto */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Estilo para las listas con viñetas */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Estilo para las listas numeradas */
+  ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  /* Estilo para las secciones */
+  section {
+    margin-top: 50px;
+  }
+  
+  /* Estilo para el pie de página */
+  footer {
+    background-color:#1d9200;
+    padding: 20px;
+    text-align: center;
+  }
