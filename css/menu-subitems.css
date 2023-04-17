@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    font-size: 0.89em;
+    justify-content: center;
+    color: rgb(151, 214, 33);
+    display: block;
+    align-items: center;
+    text-align: center;
+}
