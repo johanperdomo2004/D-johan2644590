@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 2,2em;
+    margin-bottom: 20px;
+
+}
+h2{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.box-1{
+    display: grid;
+    width: 1200px;
+    height: 700px;
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: 1,5em;
+    border: 3px solid black;
+    grid-gap:20px ;
+    font-weight: ;
+
+    
+
+}
+.style-box{
+    background-color: rgb(100, 168, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px blue;
+}
+.box-2{
+        display: grid;
+        width: 1200px;
+        height: 700px;
+        margin-left: 20px;
+        color: aliceblue;
+        font-size: 1,5em;
+        border: 3px solid black;
+        grid-gap:20px ;
+        grid-template-columns: 1fr 100px 100px 1fr;
+        font-weight: ;
+    
+}
+
+.style{
+    background-color: rgb(100, 168, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px blue;
+}
+.box-3{
+    display: grid;
+    width: 1200px;
+    height: 700px;
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: 1,5em;
+    border: 3px solid black;
+    grid-gap:20px ;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr repeat(4,150px)1fr;
+    font-weight: ;
+
+}
+
+.style2{
+background-color: rgb(100, 168, 231);
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 3px 3px 3px blue;
+}
+.box-4{
+    display: grid;
+    height: 500px;
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: 1,5em;
+    border: 3px solid black;
+    grid-gap:20px ;
+    grid-template-columns: minmax(300px,auto) 300px;
+    font-weight: ;
+
+}
+
+.style3{
+background-color: rgb(100, 168, 231);
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 3px 3px 3px blue;
+}
+.box-5{
+    display: grid;
+    height: 500px;
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: 1,5em;
+    border: 3px solid black;
+    grid-gap:20px ;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.style4{
+background-color: rgb(100, 168, 231);
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 3px 3px 3px blue;
+}
+.box1-2{
+    background-color: blueviolet;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.box1-3{
+    background-color: rgb(226, 43, 43);
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+.box1-4{
+    grid-column-start: 4;
+}
