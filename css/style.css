@@ -1,32 +1,80 @@
-/*estilos utilizando elementos html*/
-body{
-    background-color: rgba(241, 240, 240, 0.986);
-    background-image: url(nasa.jpg);
-   
+html{
+    min-height: 100%;
 }
-
-h1 {
-    /*propiedades*/
+h1, h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
     text-align: center;
-    color: rgb(238, 228, 235);
 }
-
-h2{
-    color: rgb(248, 248, 248);
-
+body{
+    background-image: url(../img/programador-1869619.webp);
+    background-size: cover;
 }
-p{
-    color: aliceblue;
+nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.863);
+    font-size: 20px;
+    margin-top: 5px;
 }
-ul{
-    color: aliceblue;
+.mh{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
-li{
-    color: rgb(151, 22, 12);
+.mh li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
 }
-
-a{
-    color: aliceblue;
+.mh li:hover{
+    background-color:  rgb(47, 114, 238);
 }
-
-/*selector de clase*/
+.mv {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.mh li:hover .mv {
+    display: block;
+}
+.mv li:hover{
+    background-color:  rgb(47, 114, 238);
+}
+.primera{
+    cursor: pointer;
+    border-radius: 10px;
+    margin: auto;
+    width: 390px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(5, 5, 5, 0.904);
+}
+.foto{
+    width: 300px;
+    height: 300px;
+    margin-left: 24px;
+    margin-top: 20px;
+    border-radius: 200px;
+}
+.foto:hover{
+    transform: scale(1.02);
+}
+h1:hover{
+    color: rgb(47, 114, 238);
+}
+i{
+    color: white;
+    margin: 5px;
+    font-size: 33px;
+    margin-left: 40px;
+}
+i:hover{
+    color: rgb(47, 114, 238);
+};
