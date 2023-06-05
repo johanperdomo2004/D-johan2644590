@@ -77,4 +77,21 @@ i{
 }
 i:hover{
     color: rgb(47, 114, 238);
-};
+}
+@media screen and (max-width: 768px) {
+    body {
+      background-size: contain;
+    }
+    
+    .primera {
+      width: 90%;
+      height: auto;
+    }
+    
+    .foto {
+      width: 90%;
+      height: auto;
+      margin: 0;
+    }
+  }
+  
