@@ -8,7 +8,7 @@ h1, h2{
     text-align: center;
 }
 body{
-    background-image: url(../img/programador-1869619.webp);
+    background-image: url(../img/portafolio.avif);
     background-size: cover;
 }
 nav{
@@ -31,7 +31,7 @@ nav{
     text-decoration: none;
 }
 .mh li:hover{
-    background-color:  rgb(47, 114, 238);
+    background-color:  rgb(71, 193, 237);
 }
 .mv {
     position: absolute;
@@ -44,7 +44,7 @@ nav{
     display: block;
 }
 .mv li:hover{
-    background-color:  rgb(47, 114, 238);
+    background-color:  rgb(71, 193, 237);
 }
 .primera{
     cursor: pointer;
@@ -67,7 +67,7 @@ nav{
     transform: scale(1.02);
 }
 h1:hover{
-    color: rgb(47, 114, 238);
+    color: rgb(71, 193, 237);
 }
 i{
     color: white;
@@ -76,7 +76,7 @@ i{
     margin-left: 40px;
 }
 i:hover{
-    color: rgb(47, 114, 238);
+    color: rgb(71, 193, 237);
 }
 @media screen and (max-width: 768px) {
     body {
