@@ -50,16 +50,16 @@ nav{
     cursor: pointer;
     border-radius: 10px;
     margin: auto;
-    width: 400px;
-    height: 500px;
+    width: 410px;
+    height: 590px;
     display: flex;
     justify-content: center;
     background-color: rgba(5, 5, 5, 0.904);
 }
 .foto{
-    width: 340px;
-    height: 320px;
-    margin-left: 24px;
+    width: 385px;
+    height: 340px;
+    margin-left: 12px;
     margin-top: 20px;
     border-radius: 200px;
 }
