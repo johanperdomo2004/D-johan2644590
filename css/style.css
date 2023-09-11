@@ -7,7 +7,9 @@ h1, h2{
     font-size: 2em;
     text-align: center;
 }
-
+body{
+   background-image: url(../img/programador-1869619.webp);
+}
 
 
 nav{
@@ -26,7 +28,7 @@ nav{
 .mh li a {
     display: block;
     padding: 15px 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 .mh li:hover{
