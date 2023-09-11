@@ -5,7 +5,7 @@ let contSlider = 1;
 
 arrowRight.addEventListener("click", function() {
     if (contSlider < 3 && contSlider >= 1) {
-        alert(contSlider);
+
         switch(contSlider) {
             case 1:
                 slider.classList.add("slider-view-2");
@@ -23,7 +23,7 @@ arrowRight.addEventListener("click", function() {
 });
 arrowLeft.addEventListener("click", function() {
     if (contSlider <= 3 && contSlider > 1) {
-        alert(contSlider);
+       
         switch(contSlider) {
             case 2:
                 slider.classList.add("slider-view-1");
