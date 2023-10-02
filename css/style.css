@@ -50,15 +50,15 @@ nav{
     cursor: pointer;
     border-radius: 10px;
     margin: auto;
-    width: 410px;
-    height: 590px;
+    width: 420px;
+    height: 650px;
     display: flex;
     justify-content: center;
     background-color: rgba(5, 5, 5, 0.904);
 }
 .foto{
-    width: 385px;
-    height: 340px;
+    width: 400px;
+    height: 410px;
     margin-left: 12px;
     margin-top: 20px;
     border-radius: 200px;
@@ -89,7 +89,7 @@ i:hover{
     }
     
     .foto {
-      width: 90%;
+      width: 100%;
       height: auto;
       margin: 0;
     }
