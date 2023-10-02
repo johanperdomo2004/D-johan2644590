@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    height: 90px;
+    display: grid;
+    grid-template: "logo input-busqueda hamburguer-menu carrito" /
+                    80px  1fr               80px          80px;
+}
+
+.logo{
+    grid-area: logo;
+    background-color: rgb(234, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-busqueda{
+    grid-area: input-busqueda;
+    background-color: rgb(189, 120, 28);
+}
+
+.hamburguer-menu{
+    grid-area: hamburguer-menu;
+    background-color: green;
+}
+
+
+.carrito{
+    grid-area: carrito;
+    background-color: yellow;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+
+}
