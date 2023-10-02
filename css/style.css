@@ -8,9 +8,10 @@ h1, h2{
     text-align: center;
 }
 body{
-    background-image: url(../img/portafolio.avif);
-    background-size: cover;
+   background-image: url(../img/programador-1869619.webp);
 }
+
+
 nav{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 100%;
@@ -27,7 +28,7 @@ nav{
 .mh li a {
     display: block;
     padding: 15px 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 .mh li:hover{
