@@ -1,44 +1,83 @@
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
+    margin: 0;
 }
-
 header{
-    height: 90px;
+    background-color: rgb(244, 233, 27);
     display: grid;
+    border-bottom: 1px solid gray;
+    height: 60px;
     grid-template: "logo input-busqueda hamburguer-menu carrito" /
-                    80px  1fr               80px          80px;
+                      60px   1fr          40px            40px; 
 }
-
 .logo{
     grid-area: logo;
-    background-color: rgb(234, 233, 233);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
+.logo img{
+    width: 80px;
+    height: 80;
+}
+.input-busqueda i{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.input-busqueda input{
+    border: none;
+    margin-left: 10px;
+    font-size:16px;
+}
 .input-busqueda{
     grid-area: input-busqueda;
-    background-color: rgb(189, 120, 28);
+    background-color: white;
+    margin-top: 10px;
+    height: 40px;
+    display: flex; justify-content: center; align-items: center;
+    
 }
-
 .hamburguer-menu{
     grid-area: hamburguer-menu;
-    background-color: green;
-}
-
-
+    display: flex; justify-content: center; align-items: center;
+ }
 .carrito{
     grid-area: carrito;
-    background-color: yellow;
+    display: flex; justify-content: center; align-items: center;
+}
+i{
+    font-size: 25px; 
+}
+.main-content{
+    display: grid;
+}
+.box-producto{
+    display: grid;
+    height: 300px;
+    grid-template: "box-img box-info"/
+                       3fr       4fr ;
+}
+.box-img{
+    grid-area: box-img;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-info{
+    grid-area: box-info;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 233, 54);
+}
+.img-auto{
+    width: 100%;
+}
+.marca{
+    font-weight: bold;
 }
 
-img{
-    width: 80px;
-    height: 80px;
-
+.precio{
+    font-weight: 600;
 }
