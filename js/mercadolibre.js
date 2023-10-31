@@ -13,7 +13,7 @@ class Automovil {
     }
 };
 
-let auto1 = new Automovil("VOLKSWAGEN", "CRAFTER",450000, 2015 ,988000,"Pitalito-Huila", "img/2595.jpg" );
+let auto1 = new Automovil("VOLKSWAGEN", "CRAFTER",450000000, 2015 ,988000,"Pitalito-Huila", "img/2595.jpg" );
 
 // alert ( auto1.marca + " " + auto1.modelo); 
 
