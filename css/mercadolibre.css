@@ -17,6 +17,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 .logo img{
     width: 80px;
     height: 80;
@@ -97,4 +98,11 @@ i{
 }
 .search{
     outline: none;
+}
+@media only screen and(min-width: 600px){
+    .contentSide{
+        background-color: aqua;
+        height: 100vh;
+        width: 100px;
+    }
 }

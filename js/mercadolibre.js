@@ -12,10 +12,10 @@ class Automovil {
     }
 };
 
-let img1 = "../imagenes/rubicon.jpg";
-let img2 = "../imagenes/mazda.jpg";
-let img3 = "../imagenes/toyota2.jpg";
-let img4 = "../imagenes/bettle2.jpg";
+let img1 = "../img/2595.jpg";
+let img2 = "../img/hola.jpg";
+let img3 = "../img/hino11.jpg";
+let img4 = "../img/vamos2/jpg";
 
 let auto1 = new Automovil("VOLKSWAGEN", "CRAFTER",450000, 2015 ,988000,"Pitalito-Huila", "img/2595.jpg" );
 let auto2 = new Automovil("KENWORTH", "T800", 400000,2012,930000,"Ibague-Tolima","img/hola.jpg" );
