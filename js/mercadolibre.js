@@ -11,7 +11,6 @@ class Automovil {
         this.imagen = imagen;
     }
 };
-
 let img1 = "../img/2595.jpg";
 let img2 = "../img/hola.jpg";
 let img3 = "../img/hino11.jpg";
@@ -21,8 +20,6 @@ let auto1 = new Automovil("VOLKSWAGEN", "CRAFTER",450000, 2015 ,988000,"Pitalito
 let auto2 = new Automovil("KENWORTH", "T800", 400000,2012,930000,"Ibague-Tolima","img/hola.jpg" );
 let auto3 = new Automovil("HINO", "500", 350000,2008,860000,"Medellin-Antioquia","img/hino11.jpg" );
 let auto4 = new Automovil("CHEVROLET", "NQR", 140000,2013,182000,"Neiva-Huila","img/vamos2.jpg" );
- 
-
 
 
 let autos = [auto1, auto2, auto3, auto4];
@@ -36,9 +33,8 @@ let autos = [auto1, auto2, auto3, auto4];
 
 function cargarVehiculo(auto){
 
- // if (event.key == "Enter"){ 
     let mainContent = document.getElementById("mainContent");
-    //caja producto
+    //caja producto 
     let boxProducto = document.createElement("div");
     mainContent.appendChild(boxProducto);
     boxProducto.setAttribute("class", "box-producto");
@@ -97,7 +93,7 @@ function cargarVehiculo(auto){
     let txtNodeDir = document.createTextNode(auto.direccion)
     direccion.appendChild(txtNodeDir);
     direccion.setAttribute("class", "direccion");
-// }
+
 
 };
 
@@ -107,7 +103,7 @@ inputBusqueda.addEventListener("input", function(event) {
     mainContent.innerHTML = ''; // Limpia el contenido anterior
 
     for (let auto of autos) {
-        if (auto.marca.toLowerCase() === userInput) {
+        if (auto.marca.toLowerCase().startsWith(userInput)) {
             // Crea la caja de producto para el auto correspondiente
         
             let mainContent = document.getElementById("mainContent");
@@ -171,4 +167,10 @@ inputBusqueda.addEventListener("input", function(event) {
             direccion.appendChild(txtNodeDir);
             direccion.setAttribute("class", "direccion");
 
-        }}});
+        } 
+    }});
+        
+        
+
+
+

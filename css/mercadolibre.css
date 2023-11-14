@@ -100,9 +100,9 @@ i{
 }
 @media only screen and (max-width:800px){
     .contentSide{
-        background-color: rgba(255, 255, 255, 0.377);
+        background-color: rgba(255, 255, 255, 0.955);
         height: 100vh;
-        width: 800px;
+        width: 900px;
     } 
     .icon-heart{
         position: relative;
@@ -112,11 +112,45 @@ i{
     .box-producto{
         display: grid;
         height: 150px;
-        border-top: 1px solid rgb(127, 127, 127);
+        border-top: 1px solid gray;
     }
     .main-content{
-        height: 200px;
+        height: 700px;
     }
 }
+@media only screen and (max-width:400px){
+ .contentSide{
+    display: none;
+ }
+ .icon-heart{
+    color: rgb(10, 168, 230);
+    background-color: rgba(235, 235, 235, 0.775);
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 50%;
+    position: relative;
+    top: -100px;
+    left: 120px;
+}
+.box-producto{
+    display: grid;
+    height: 120px;
+    border-top: 1px solid gray;
+}
+.main-content{
+    height: 200px;
+}
 
+};
 
+.contentSide {
+    background-color: rgba(248, 248, 0, 0.955);
+    height: 100vh;
+    width: 800px;
+    transition: transform 0.3s ease-in-out; /* Agregamos una transición para suavizar la animación */
+    transform: translateX(-3800px); /* Inicialmente oculto */
+}
+
+.contentSide.show-menu {
+    transform: translateX(0); /* Mostrar el menú */
+};
