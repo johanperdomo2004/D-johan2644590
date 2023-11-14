@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
     background-color: rgb(244, 233, 27);
@@ -13,15 +13,12 @@ header{
 }
 .logo{
     grid-area: logo;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; justify-content: center; align-items: center;
+}
+.logo img{
+    width: 60px;
 }
 
-.logo img{
-    width: 80px;
-    height: 80;
-}
 .input-busqueda i{
     font-size: 18px;
     margin-left: 10px;
@@ -37,7 +34,9 @@ header{
     margin-top: 10px;
     height: 40px;
     display: flex; justify-content: center; align-items: center;
-    
+}
+.inputSearch{
+    outline: none;
 }
 .hamburguer-menu{
     grid-area: hamburguer-menu;
@@ -48,7 +47,8 @@ header{
     display: flex; justify-content: center; align-items: center;
 }
 i{
-    font-size: 25px; 
+    font-size: 24px; 
+    color: rgba(0, 0, 0, 0.713);
 }
 .main-content{
     display: grid;
@@ -56,21 +56,19 @@ i{
 .box-producto{
     display: grid;
     height: 110px;
-    padding-top: 5%;
-    border-top: 1px solid grey;
+    padding-top: 15px;
+    border-top: 1px solid gray;
     grid-template: "box-img box-info"/
                        3fr       4fr ;
 }
 .box-img{
     grid-area: box-img;
     display: block;
-    padding: 5%;
+    padding: 5px;
 }
 .box-info{
     grid-area: box-info;
-    padding: 8px;
-   
-    background-color: rgb(255, 255, 255);
+    padding: 10px;
 }
 .img-auto{
     width: 100%;
@@ -78,31 +76,47 @@ i{
 .marca{
     display: block;
     font-size: 18px;
+    margin-bottom: 3px;
+}
+.precio{
+    display: block;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 3px;
 }
 
-.precio{
-    font-weight: 600;
-    display: block;
-    font-size: 23px;
-}
 .icon-heart{
-    color: rgb(67, 92, 183);
-    background-color: rgb(179, 190, 190);
-    font-size: 15px;
-    padding: 6px;
+    color: rgb(10, 168, 230);
+    background-color: rgba(235, 235, 235, 0.775);
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 50%;
     position: relative;
     top: -100px;
-    left:120px;
-    border-radius: 50%;
-
+    left: 120px;
 }
-.search{
-    outline: none;
+.content{
+    display: flex;
 }
-@media only screen and(min-width: 600px){
+@media only screen and (max-width:800px){
     .contentSide{
-        background-color: aqua;
+        background-color: rgba(128, 128, 128, 0.377);
         height: 100vh;
-        width: 100px;
+        width: 800px;
+    } 
+    .icon-heart{
+        position: relative;
+        top: -150px;
+        left: 180px;
+    }
+    .box-producto{
+        display: grid;
+        height: 150px;
+        border-top: 1px solid gray;
+    }
+    .main-content{
+        height: 700px;
     }
 }
+
+
