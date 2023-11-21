@@ -6,10 +6,44 @@
 header{
     background-color: rgb(244, 233, 27);
     display: grid;
-    border-bottom: 1px solid gray;
     height: 60px;
     grid-template: "logo input-busqueda hamburguer-menu carrito" /
                       60px   1fr          40px            40px; 
+}
+
+.toggle-container {
+    position: relative;
+    margin-top: 10px;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-label {
+    display: block;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(116, 114, 114);
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-label:before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 3px;
+    left: 3px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.toggle-input:checked + .toggle-label:before {
+    transform: translateX(20px);
 }
 .logo{
     grid-area: logo;
@@ -100,14 +134,14 @@ i{
 }
 @media only screen and (max-width:800px){
     .contentSide{
-        background-color: rgba(255, 255, 255, 0.955);
+        background-color: rgba(128, 128, 128, 0.377);
         height: 100vh;
-        width: 900px;
+        width: 800px;
     } 
     .icon-heart{
         position: relative;
-        top: -110px;
-        left: 120px;
+        top: -140px;
+        left: 180px;
     }
     .box-producto{
         display: grid;
@@ -141,16 +175,4 @@ i{
     height: 200px;
 }
 
-};
-
-.contentSide {
-    background-color: rgba(248, 248, 0, 0.955);
-    height: 100vh;
-    width: 800px;
-    transition: transform 0.3s ease-in-out; /* Agregamos una transición para suavizar la animación */
-    transform: translateX(-3800px); /* Inicialmente oculto */
-}
-
-.contentSide.show-menu {
-    transform: translateX(0); /* Mostrar el menú */
 };

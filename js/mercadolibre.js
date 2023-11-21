@@ -11,6 +11,7 @@ class Automovil {
         this.imagen = imagen;
     }
 };
+
 let img1 = "../img/2595.jpg";
 let img2 = "../img/hola.jpg";
 let img3 = "../img/hino11.jpg";
@@ -173,4 +174,4 @@ inputBusqueda.addEventListener("input", function(event) {
         
 
 
-
+    
