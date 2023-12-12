@@ -1,35 +1,84 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    padding: 20px;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-.rating-container {
-    display: flex;
-    flex-direction: column;
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
 }
 
 label {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: block;
+    font-size: 1.2em;
+    color: #333;
 }
 
-progress {
+input {
     width: 100%;
-    margin-bottom: 10px;
-}
-
-.btn-enviar {
-    background-color: black;
-    color: white;
-    border: none;
     padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    font-weight: 900;
+    font-size: 1em;
 }
 
-p {
-    font-weight: bold;
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.results {
+    margin-top: 30px;
+}
+
+.progressBar {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.progressBar::-webkit-progress-bar {
+    background-color: #ecf0f1;
+}
+
+.progressBar::-webkit-progress-value {
+    background-color: #3498db;
+}
+
+.progressBar::-moz-progress-bar {
+    background-color: #3498db;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

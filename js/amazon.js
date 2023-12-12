@@ -19,24 +19,24 @@ btnGraficar.addEventListener('click', function () {
         Number(calificacion5.value);
     alert(sumaCalificacion);
 
-    // Hallar el porcentaje de cada calificación
-    let porcentajecal1 = (Number(calificacion1.value) * 100) / sumaCalificacion;
+ 
+    let porcentajecal1 = ((Number(calificacion1.value) * 100) / sumaCalificacion).toFixed(1);
     document.getElementById('porcentaje1').innerHTML = porcentajecal1 + '%';
     progressBar1.value = porcentajecal1;
 
-    let porcentajecal2 = (Number(calificacion2.value) * 100) / sumaCalificacion;
+    let porcentajecal2 = ((Number(calificacion2.value) * 100) / sumaCalificacion).toFixed(1);
     document.getElementById('porcentaje2').innerHTML = porcentajecal2 + '%';
     progressBar2.value = porcentajecal2;
 
-    let porcentajecal3 = (Number(calificacion3.value) * 100) / sumaCalificacion;
+    let porcentajecal3 = ((Number(calificacion3.value) * 100) / sumaCalificacion).toFixed(1);
     document.getElementById('porcentaje3').innerHTML = porcentajecal3 + '%';
     progressBar3.value = porcentajecal3;
 
-    let porcentajecal4 = (Number(calificacion4.value) * 100) / sumaCalificacion;
+    let porcentajecal4 = ((Number(calificacion4.value) * 100) / sumaCalificacion).toFixed(1);
     document.getElementById('porcentaje4').innerHTML = porcentajecal4 + '%';
     progressBar4.value = porcentajecal4;
 
-    let porcentajecal5 = (Number(calificacion5.value) * 100) / sumaCalificacion;
+    let porcentajecal5 = ((Number(calificacion5.value) * 100) / sumaCalificacion).toFixed(1);
     document.getElementById('porcentaje5').innerHTML = porcentajecal5 + '%';
     progressBar5.value = porcentajecal5;
 });
